@@ -74,18 +74,20 @@
 #author {
     display: inline;
     float:left;
-
     color: red;
 }
 
 #date {
-    display: inline;
     float:left;
 }
+<<<<<<< Updated upstream
 
 .bottom{
     grid-area: "btm";
 
     max-height: 10vh;
     min-height: 10vh;
+=======
+img {
+>>>>>>> Stashed changes
 }
