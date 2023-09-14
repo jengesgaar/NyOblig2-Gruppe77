@@ -85,6 +85,10 @@
     float:left;
 }
 
+.clear {
+    clear: both;
+}
+
 .bottom{
     grid-area: btm;
 
