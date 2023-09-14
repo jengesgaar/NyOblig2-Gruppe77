@@ -1,8 +1,8 @@
 .main-grid{
     display: grid;
 
-    grid-template-columns: 1fr 2fr 7fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 7fr;
     grid-template-areas:
         "headr"
         "ttl"
@@ -22,11 +22,16 @@
 
 .logo{
     grid-area: "logo";
+
+    display: grid;
+    grid-template-columns: ;
 }
 
 .simplest-link{
     grid-area: "smplnk";
 }
+
+
 
 .inline-block {
     display: inline;
