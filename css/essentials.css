@@ -32,8 +32,14 @@
 }
 
 
+#author {
+    display: inline;
+    float:left;
 
-.inline-block {
+    color: red;
+}
+
+#date {
     display: inline;
     float:left;
 }
