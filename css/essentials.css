@@ -5,69 +5,82 @@
     max-height: 100vh;
     
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr, 8fr, 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
     grid-template-areas:
-        "headr"
+        "hdr"
         "mid"
         "btm"
         ;
 }
 
 .header-grid{
-    grid-area: "headr";
-
+    grid-area: hdr;
+    
+    min-height: 10vh;
     max-height: 10vh;
-    min-width: 100vw;
 
-    background-color: lightgrey;
+    min-width: 100vw;
+    max-width: 100vw;
+
+    border-bottom: solid 1px red;
 
     display: grid;
-    grid-template-columns: 1fr, 8fr, 1fr;
+    grid-template-columns: 1fr 8fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas:
-        "logo . smplnk";
+    grid-template-areas: "... logo smplnk";
 }
 
 .logo{
-    grid-area: "logo";
+    grid-area: logo;
 
     max-height: 10vh;
 
     display: grid;
     grid-template-columns:1fr ;
-    grid-template-rows: 5vh, 5vh;
+    grid-template-rows: 5vh 5vh;
     grid-template-areas: 
     "bkstlo"
     "txtlo";
 }
 
 .bokstav-logo{
-    grid-area: "bkstlo";
-
-    max-height: 5vh;
+    grid-area: bkstlo;
 
     text-align: center;
 
     color: red;
 
-    font-size: large;
+    font-size: 200%;
 }
 
 .tekst-logo{
-    grid-area: "txtlo";
-
-    max-height: 5vh;
+    grid-area: txtlo;
 
     text-align: center;
-
+    text-decoration: underline overline;
+    text-decoration-color: red;
+    text-decoration-thickness: 1%;
+    
+    font-weight: bold;
+    font-size: 125%;
 }
 
 .simplest-link{
-    grid-area: "smplnk";
+    grid-area: smplnk;
+
+    margin-top: 5.5vh;
+
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 1%;
+}
+
+.simplest-link:hover{
+    color: red;
 }
 
 .mid{
-    grid-area: "mid";
+    grid-area: mid;
 
     max-height: 80vh;
     min-height:  80vh;
@@ -83,14 +96,13 @@
 #date {
     float:left;
 }
-<<<<<<< Updated upstream
+
+.clear {
+    clear: both;
+}
 
 .bottom{
-    grid-area: "btm";
+    grid-area: btm;
 
     max-height: 10vh;
     min-height: 10vh;
-=======
-img {
->>>>>>> Stashed changes
-}

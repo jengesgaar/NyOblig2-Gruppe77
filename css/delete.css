@@ -1,8 +1,11 @@
 *{
     font-family: sans-serif;
- 
+    font-size: 18px;
 }
 
 h1 {
-    
+  font-size: 28px;  
+}
+ul li {
+    line-height: 32px;   /* within paragraph */
 }
