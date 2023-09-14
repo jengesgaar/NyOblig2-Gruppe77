@@ -27,3 +27,8 @@
 .simplest-link{
     grid-area: "smplnk";
 }
+
+.inline-block {
+    display: inline;
+    float:left;
+}
