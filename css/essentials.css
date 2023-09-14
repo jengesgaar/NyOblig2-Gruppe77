@@ -1,14 +1,15 @@
 .main-grid{
     display: grid;
 
+    min-height: 100vh;
     max-height: 100vh;
     
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr, 2fr, 7fr;
+    grid-template-rows: 1fr, 8fr, 1fr;
     grid-template-areas:
         "headr"
-        "ttl"
-        "info"
+        "mid"
+        "btm"
         ;
 }
 
@@ -41,16 +42,32 @@
     grid-area: "bkstlo";
 
     max-height: 5vh;
+
+    text-align: center;
+
+    color: red;
+
+    font-size: large;
 }
 
 .tekst-logo{
     grid-area: "txtlo";
 
     max-height: 5vh;
+
+    text-align: center;
+
 }
 
 .simplest-link{
     grid-area: "smplnk";
+}
+
+.mid{
+    grid-area: "mid";
+
+    max-height: 80vh;
+    min-height:  80vh;
 }
 
 
@@ -64,4 +81,11 @@
 #date {
     display: inline;
     float:left;
+}
+
+.bottom{
+    grid-area: "btm";
+
+    max-height: 10vh;
+    min-height: 10vh;
 }
