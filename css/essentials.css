@@ -17,18 +17,21 @@
     grid-area: "headr";
 
     max-height: 10vh;
+    min-width: 100vw;
+
+    background-color: lightgrey;
 
     display: grid;
-    grid-template-columns: 1fr, 3fr, 1fr;
+    grid-template-columns: 1fr, 8fr, 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-        "logo ... smplnk";
+        "logo . smplnk";
 }
 
 .logo{
     grid-area: "logo";
 
-    max-height: 1vh;
+    max-height: 10vh;
 
     display: grid;
     grid-template-columns:1fr ;
@@ -74,18 +77,20 @@
 #author {
     display: inline;
     float:left;
-
     color: red;
 }
 
 #date {
-    display: inline;
     float:left;
 }
+<<<<<<< Updated upstream
 
 .bottom{
     grid-area: "btm";
 
     max-height: 10vh;
     min-height: 10vh;
+=======
+img {
+>>>>>>> Stashed changes
 }
