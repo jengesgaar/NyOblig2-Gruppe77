@@ -1,4 +1,29 @@
 .main-grid{
     display: grid;
-    
+
+    grid-template-columns: 1fr 2fr 7fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "headr"
+        "ttl"
+        "info"
+        ;
+}
+
+.header-grid{
+    grid-area: "headr";
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 3fr, 1fr;
+    grid-template-areas:
+        "logo ... "
+}
+
+.logo{
+    grid-area: "logo";
+}
+
+.simplest-link{
+    grid-area: "smplnk";
 }
