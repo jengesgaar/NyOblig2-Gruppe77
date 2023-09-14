@@ -17,12 +17,15 @@
     grid-area: "headr";
 
     max-height: 10vh;
+    min-width: 100vw;
+
+    background-color: lightgrey;
 
     display: grid;
-    grid-template-columns: 1fr, 3fr, 1fr;
+    grid-template-columns: 1fr, 8fr, 1fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-        "logo ... smplnk";
+        "logo . smplnk";
 }
 
 .logo{
