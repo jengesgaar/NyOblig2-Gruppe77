@@ -27,7 +27,7 @@
 .logo{
     grid-area: "logo";
 
-    max-height: 10vh;
+    max-height: 1vh;
 
     display: grid;
     grid-template-columns:1fr ;
