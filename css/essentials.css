@@ -22,7 +22,7 @@
     min-height: 10vh;
     max-height: 10vh;
 
-    min-width: 100vw;
+    /*min-width: 100vw;                 Delete*/
     max-width: 100vw;
 
     border-bottom: solid 1px red;
