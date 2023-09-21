@@ -37,6 +37,11 @@ img {
     grid-template-rows: 1fr;
     grid-template-areas: "... logo smplnk";
 }
+
+#MakkraBlaka {
+    width: 100px;
+    
+}
     
 .logo{
     grid-area: logo;
@@ -49,6 +54,8 @@ img {
     grid-template-areas: 
     "bkstlo"
     "txtlo";
+
+    text-align: center;
 }
 
 .bokstav-logo{
