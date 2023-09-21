@@ -2,6 +2,11 @@
 *{
     font-family: "Times New Roman", Times, serif;
 }
+
+img {
+    max-width: 100%;
+}
+
 .main-grid{
     display: grid;
 
@@ -22,7 +27,7 @@
     min-height: 10vh;
     max-height: 10vh;
 
-    /*min-width: 100vw;                 Delete*/
+    min-width: 100vw;
     max-width: 100vw;
 
     border-bottom: solid 1px red;
@@ -32,7 +37,7 @@
     grid-template-rows: 1fr;
     grid-template-areas: "... logo smplnk";
 }
-
+    
 .logo{
     grid-area: logo;
 
