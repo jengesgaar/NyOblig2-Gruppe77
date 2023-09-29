@@ -24,7 +24,7 @@ img {
 .header-grid{
     grid-area: hdr;
     
-    height: 10vh;
+    height: 15vh;
     width: 100%;
 
     border-bottom: solid 1px red;
@@ -36,8 +36,9 @@ img {
 }
 
 #MakkraBlaka {
+    position: absolute;
     width: 100px;
-    
+    left: 15%;
 }
     
 .logo{
