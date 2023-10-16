@@ -14,7 +14,7 @@ img {
     max-height: 100vh;
     
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 17fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
     grid-template-areas:
         "hdr"
         "mid"
