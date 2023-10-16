@@ -24,7 +24,7 @@ img {
 .header-grid{
     grid-area: hdr;
     
-    height: 15vh;
+    height: 100px;
     width: 100%;
 
     border-bottom: solid 1px red;
@@ -39,31 +39,6 @@ img {
     position: absolute;
     width: 100px;
     left: 13%;
-}
-    
-.logo{
-    grid-area: logo;
-
-    max-height: 10vh;
-
-    display: grid;
-    grid-template-columns:1fr ;
-    grid-template-rows: 5vh 5vh;
-    grid-template-areas: 
-    "bkstlo"
-    "txtlo";
-
-    text-align: center;
-}
-
-.bokstav-logo{
-    grid-area: bkstlo;
-
-    text-align: center;
-
-    color: red;
-
-    font-size: 200%;
 }
 
 .tekst-logo{
