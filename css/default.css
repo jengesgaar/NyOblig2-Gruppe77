@@ -117,3 +117,37 @@
 .lighthouseIMG {
     width: 65%;
 }
+
+#header-grid-data1200 {
+    border: none;
+    background-color: rgb(255, 129, 0);
+}
+
+.data1200 {
+    border: none;
+}
+.data1200 p, strong, li{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: black;
+}
+
+.data1200 strong, .underoverskrift {
+    line-height: 4;
+}
+
+#bottom-data1200 {
+    border-color: black;
+}
+
+#simplest-link-data1200 {
+    
+    text-decoration: none;
+}
+
+#simplest-link-data1200:hover{
+    color: black;
+    text-decoration: underline black
+}
